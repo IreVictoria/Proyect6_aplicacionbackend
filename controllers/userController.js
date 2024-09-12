@@ -66,3 +66,19 @@ exports.deleteUser = async (req, res) => {
 
     }
 }; 
+ 
+//verficar token. 
+exports.verifyUser = async (req, res) => {
+	try {
+		// confirmamos que el usuario exista y 
+		//retorna sus datos, excluyendo de password
+		const verifyUsuario = await User.findByToken(req.user.id).select('-password')
+		res.json({ verifyUsuario })
+	} catch (error) {
+		// en caso de error, devolvemos un mensaje
+		res.status(500).json({
+			msg: "Houston tenemos un problema",
+			error
+		})
+	}
+}

@@ -49,7 +49,7 @@ const signIn = async (req, res) => {
             payload,
             process.env.SECRET,
             {
-                expiresIn: 3_600_000 // fecha de expiracion del token que solo dura es una 1 hora.
+                expiresIn: 3_600_000 // fecha de expiracion del token que solo dura una 1 hora.
 
             },
             (error, token) => { 

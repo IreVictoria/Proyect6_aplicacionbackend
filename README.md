@@ -602,11 +602,18 @@ module.exports = (req, res, next) => {
 
 1.- Registro de un usuario. 
 
-imagen 
+[![registrar-usuario.png](https://i.postimg.cc/yNbhg1x0/registrar-usuario.png)](https://postimg.cc/p9K53tDd)
+
+El usuario al registrarse también queda registrado en la base de datos. 
+
+[![registro-mongo.png](https://i.postimg.cc/tJ0hkBhT/registro-mongo.png)](https://postimg.cc/VrRrLBZQ)
+
 
 2.- Usuario pueda iniciar sesión. 
 
-imagen
+
+[![iniciar-sesion.png](https://i.postimg.cc/mZM3kGsF/iniciar-sesion.png)](https://postimg.cc/Z0bvs20T)
+
 
 3.-  Verificar token del usuario. 
 
@@ -615,3 +622,38 @@ imagen
 4.- Actualizar información del usuario. 
 
 imagen.
+
+### Implementar endpoints de los productos en thunder client. 
+
+1.- Crear un producto. 
+
+[![producto-creado-2.png](https://i.postimg.cc/13RDvnNp/producto-creado-2.png)](https://postimg.cc/nC5szL2z)
+
+Al ser creado el producto queda registrado en la base de datos (mongo dB atlas).
+
+[![product-base-de-datos.png](https://i.postimg.cc/pTjjmKgt/product-base-de-datos.png)](https://postimg.cc/sQVx8Gjn)
+
+2.- Leer toda la lista de productos. 
+
+[![readallproduct.png](https://i.postimg.cc/Y21gkf66/readallproduct.png)](https://postimg.cc/V5k5WtHv)
+
+3.- Leer un producto en específico. 
+
+[![unsoloproducto.png](https://i.postimg.cc/6Qk2xyTb/unsoloproducto.png)](https://postimg.cc/2qx84jQn)
+
+
+4.- Actualizar un producto. 
+
+[![actualizarproducttttt.png](https://i.postimg.cc/FR0frNLr/actualizarproducttttt.png)](https://postimg.cc/R6VCGrdy)
+
+5.- Eliminar un producto. 
+
+[![eliminarproducto.png](https://i.postimg.cc/BbsjtkTx/eliminarproducto.png)](https://postimg.cc/LYC9by0X)
+
+
+Para verificar que el producto fue eliminado con el mismo `id`realizamos la peticion en encontrar un producto en específico. 
+
+
+[![nullproduct.png](https://i.postimg.cc/dts7FMtF/nullproduct.png)](https://postimg.cc/dDfQRxyN)
+
+

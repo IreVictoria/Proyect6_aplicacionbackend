@@ -16,16 +16,11 @@ En este proyecto se dará a conocer la construcción de una aplicación backend 
 
 ------------
 
-- Crear una arquitectura de carpetas y archivos, clara.
-  
-- Implementar autenticación y autorización en tu aplicación.
-  
-- Crear dos modelos, uno para el Usuario y otro para el Producto.
-  
-- Implementar operaciones CRUD para el modelo del Producto.
-  
-- Utilizar MongoDB y Mongoose para gestionar la base de datos.
-  
+- Crear una arquitectura de carpetas y archivos, clara.  
+- Implementar autenticación y autorización en tu aplicación.  
+- Crear dos modelos, uno para el Usuario y otro para el Producto. 
+- Implementar operaciones CRUD para el modelo del Producto. 
+- Utilizar MongoDB y Mongoose para gestionar la base de datos. 
 - Crear un repositorio en GitHub y subir el proyecto al mismo.
 
 
@@ -39,15 +34,18 @@ En este proyecto se dará a conocer la construcción de una aplicación backend 
 
 1.- Instalar todas las `dependencias` requeridas para poder realizar la aplicación. 
 
-imagen
+[![Captura-de-pantalla-2024-09-13-000421.png](https://i.postimg.cc/MTnDdcNs/Captura-de-pantalla-2024-09-13-000421.png)](https://postimg.cc/CBVkKKFD)
+
 
 2.- Establecer los `scripts` en el archivo de package.json. 
 
-imagen.
+[![scripts.png](https://i.postimg.cc/Wzr7cB2g/scripts.png)](https://postimg.cc/sGjWp0Gg)
+
 
 3.- Estructurar proyecto por carpetas. 
 
-imagen.
+[![estructura-carpetas.png](https://i.postimg.cc/HswtZ1vC/estructura-carpetas.png)](https://postimg.cc/GHpYtV1M)
+
 
 4.- A continuación se dará a conocer el código contenido en cada carpeta del proyecto. 
 
